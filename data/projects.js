@@ -25,18 +25,6 @@ export const projects = [
   },
   {
     id: 3,
-    name: 'Console Streaming Platform',
-    fullName: 'C++ Console-Based Movie Streaming Platform',
-    description:
-      'Console-based streaming platform in C++ simulating core features: user auth with disk persistence, movie catalogue with O(1) hash-map search, watch history (stack-based with undo), personal watchlist, and Top 5 Trending Movies via a custom max-heap.',
-    techStack: ['C++', 'Data Structures', 'Algorithms', 'File I/O', 'Hash Maps', 'Max-Heap'],
-    github: 'https://github.com/FurqanAlyy/Console-Based-Movie-Streaming-Platform-cpp',
-    live: null,
-    featured: true,
-    gradient: 'from-emerald-500 to-teal-600',
-  },
-  {
-    id: 4,
     name: 'CodeSync',
     fullName: 'CodeSync — Real-Time Collaborative Code Editor',
     description:
@@ -45,6 +33,18 @@ export const projects = [
     github: 'https://github.com/FurqanAlyy/CodeSync-Real-Time-Collaborative-Code-Editor-',
     live: "http://codesync-load-balancer-65810073.ap-northeast-1.elb.amazonaws.com",
     featured: true,
-    gradient: 'from-violet-500 to-indigo-600',
+    gradient: 'from-emerald-500 to-teal-600',
+  },
+   {
+    id: 4,
+    name: 'Console Streaming Platform',
+    fullName: 'C++ Console-Based Movie Streaming Platform',
+    description:
+      'Console-based streaming platform in C++ simulating core features: user auth with disk persistence, movie catalogue with O(1) hash-map search, watch history (stack-based with undo), personal watchlist, and Top 5 Trending Movies via a custom max-heap.',
+    techStack: ['C++', 'Data Structures', 'Algorithms', 'File I/O', 'Hash Maps', 'Max-Heap'],
+    github: 'https://github.com/FurqanAlyy/Console-Based-Movie-Streaming-Platform-cpp',
+    live: null,
+    featured: true,
+    gradient: 'from-cyan-500 to-blue-600',
   },
 ];
