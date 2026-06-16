@@ -47,4 +47,16 @@ export const projects = [
     featured: true,
     gradient: 'from-cyan-500 to-blue-600',
   },
+  {
+    id: 4,
+    name: 'CodeSync',
+    fullName: 'CodeSync — Real-Time Collaborative Code Editor',
+    description:
+      'A lightweight, real-time collaborative code editor built with React, Monaco Editor, Yjs, and Socket.IO. Multiple users can edit the same document simultaneously with conflict-free merging, live cursor awareness, and presence indicators — all in a single Docker container.',
+    techStack: ['React', 'Monaco Editor', 'Yjs', 'Socket.IO', 'Docker', 'Node.js', 'Express.js', 'Tailwind CSS', 'AWS ECR,ECS,EC2'],
+    github: 'https://github.com/FurqanAlyy/CodeSync-Real-Time-Collaborative-Code-Editor-',
+    live: true,
+    featured: true,
+    gradient: 'from-violet-500 to-indigo-600',
+  }
 ];

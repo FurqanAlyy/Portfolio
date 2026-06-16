@@ -1,6 +1,20 @@
 // No formal work experience yet — currently studying.
 // Add entries here when you have internship/job experience.
-export const experience = [];
+export const experience = [
+  {
+    title: 'Web Developer Intern',
+    institution: 'Webocation',
+    period: 'April 2026 – Present',
+    description:
+      'Worked as a Web Developer Intern, developing responsive web applications using React and WordPress, integrating APIs, customizing themes and plugins, and collaborating with the development team to deliver scalable and user-friendly solutions.',
+    highlights: [
+      'Developed responsive web applications using React',
+      'Customized WordPress themes and plugins',
+      'Integrated REST APIs for dynamic functionality',
+      'Collaborated with team to deliver production-ready solutions',
+    ],
+  },
+];
 
 export const currentFocus = {
   title: 'Computer Science Student & Full-Stack Developer',
