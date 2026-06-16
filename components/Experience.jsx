@@ -22,54 +22,7 @@ export default function Experience() {
         </AnimatedSection>
 
         <div className="max-w-3xl mx-auto space-y-10">
-          {/* Current Focus Card */}
-          <AnimatedSection delay={0.1}>
-            <div className="p-8 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm relative overflow-hidden">
-              <div
-                className="absolute top-0 left-0 w-1 h-full bg-indigo-500 rounded-l-2xl"
-                aria-hidden
-              />
-              <div className="flex items-start gap-4 pl-4">
-                <div className="p-3 rounded-xl bg-indigo-100 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 shrink-0">
-                  <GraduationCap size={24} />
-                </div>
-
-                <div className="flex-1 min-w-0">
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-1">
-                    <h3 className="font-bold text-lg text-slate-900 dark:text-white">
-                      {currentFocus.title}
-                    </h3>
-                    <span className="text-xs text-indigo-600 dark:text-indigo-400 font-semibold bg-indigo-50 dark:bg-indigo-500/10 px-3 py-1 rounded-full w-fit">
-                      {currentFocus.period}
-                    </span>
-                  </div>
-
-                  <p className="text-slate-500 dark:text-slate-400 text-sm mb-4">
-                    {currentFocus.institution}
-                  </p>
-
-                  <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6 text-sm sm:text-base">
-                    {currentFocus.description}
-                  </p>
-
-                  <ul className="grid sm:grid-cols-2 gap-2">
-                    {currentFocus.highlights.map((h, i) => (
-                      <li
-                        key={i}
-                        className="flex items-start gap-2 text-sm text-slate-600 dark:text-slate-400"
-                      >
-                        <CheckCircle
-                          size={15}
-                          className="text-indigo-500 shrink-0 mt-0.5"
-                        />
-                        {h}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </AnimatedSection>
+          
 
           {/* Work Experience */}
           {experience.length > 0 && (
@@ -120,6 +73,55 @@ export default function Experience() {
               </div>
             </AnimatedSection>
           )}
+
+          {/* Current Focus Card */}
+          <AnimatedSection delay={0.1}>
+            <div className="p-8 rounded-2xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm relative overflow-hidden">
+              <div
+                className="absolute top-0 left-0 w-1 h-full bg-indigo-500 rounded-l-2xl"
+                aria-hidden
+              />
+              <div className="flex items-start gap-4 pl-4">
+                <div className="p-3 rounded-xl bg-indigo-100 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 shrink-0">
+                  <GraduationCap size={24} />
+                </div>
+
+                <div className="flex-1 min-w-0">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-1">
+                    <h3 className="font-bold text-lg text-slate-900 dark:text-white">
+                      {currentFocus.title}
+                    </h3>
+                    <span className="text-xs text-indigo-600 dark:text-indigo-400 font-semibold bg-indigo-50 dark:bg-indigo-500/10 px-3 py-1 rounded-full w-fit">
+                      {currentFocus.period}
+                    </span>
+                  </div>
+
+                  <p className="text-slate-500 dark:text-slate-400 text-sm mb-4">
+                    {currentFocus.institution}
+                  </p>
+
+                  <p className="text-slate-600 dark:text-slate-300 leading-relaxed mb-6 text-sm sm:text-base">
+                    {currentFocus.description}
+                  </p>
+
+                  <ul className="grid sm:grid-cols-2 gap-2">
+                    {currentFocus.highlights.map((h, i) => (
+                      <li
+                        key={i}
+                        className="flex items-start gap-2 text-sm text-slate-600 dark:text-slate-400"
+                      >
+                        <CheckCircle
+                          size={15}
+                          className="text-indigo-500 shrink-0 mt-0.5"
+                        />
+                        {h}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </AnimatedSection>
 
           {/* Communities */}
           <AnimatedSection delay={0.3}>
