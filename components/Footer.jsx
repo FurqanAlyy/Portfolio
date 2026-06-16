@@ -11,26 +11,6 @@ export default function Footer() {
             © {new Date().getFullYear()}{' '}
             <span className="text-white font-semibold">Furqan Ali</span>. All rights reserved.
           </p>
-          <p className="text-slate-600 text-xs mt-1">
-            Built with{' '}
-            <a
-              href="https://nextjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-indigo-400 transition-colors"
-            >
-              Next.js
-            </a>{' '}
-            &amp;{' '}
-            <a
-              href="https://tailwindcss.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-indigo-400 transition-colors"
-            >
-              Tailwind CSS
-            </a>
-          </p>
         </div>
 
         <div className="flex items-center gap-5">
