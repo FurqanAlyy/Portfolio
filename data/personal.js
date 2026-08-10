@@ -1,20 +1,20 @@
 export const personal = {
   name: 'Furqan Ali',
   title: 'Full-Stack Developer',
-  subtitle: 'DevOps & Cloud Infrastructure',
-  tagline: 'Building reliable, scalable software — from frontend to infrastructure.',
+  subtitle: 'AI/ML & Generative AI',
+  tagline: 'Building intelligent, scalable applications — from full-stack products to AI-powered solutions.',
   location: 'Lahore, Pakistan',
   email: 'furqan24ali@gmail.com',
   phone: '+92 370 0190949',
   linkedin: 'https://linkedin.com/in/furqan24ali',
   github: 'https://github.com/FurqanAlyy',
-  objective: `Computer Science student with hands-on experience building full-stack applications using Next.js, React, and MongoDB. Passionate about cloud computing and DevOps practices, with a focus on containerization, CI/CD, and scalable deployments. Seeking an entry-level role where I can combine development and infrastructure skills to build and ship reliable software.`,
+  objective: `Computer Science student with hands-on experience building full-stack and AI-powered applications using Python, React, Next.js, and Google Gemini. Passionate about Machine Learning, Generative AI, and intelligent application development, with experience integrating AI into real-world projects. Seeking an entry-level role to apply my technical skills, solve real-world problems, and contribute to impactful AI-driven solutions.`,
   highlights: [
-    { icon: 'Code', label: 'Full-Stack', value: 'MERN & Next.js' },
-    { icon: 'Cloud', label: 'Cloud & DevOps', value: 'AWS, Docker, CI/CD' },
-    { icon: 'Cpu', label: 'AI Integration', value: 'Google Gemini API' },
-    { icon: 'Github', label: 'Open Source', value: 'Active Contributor' },
-  ],
+  { icon: 'Code', label: 'Full-Stack', value: 'MERN & Next.js' },
+  { icon: 'Brain', label: 'AI & ML', value: 'ML & Generative AI' },
+  { icon: 'Cloud', label: 'AI Deployment', value: 'AWS, Docker & CI/CD' },
+  { icon: 'Github', label: 'Open Source', value: 'Projects & Contributions' },
+],
   certifications: [
     'Build a Website on Google Cloud Skill Badge',
     'Prompt Design in Vertex AI Skill Badge',
@@ -42,5 +42,11 @@ export const personal = {
         'Engaging with AWS fundamentals, cloud infrastructure concepts, and hands-on lab sessions to complement MERN stack skills.',
     },
   ],
-  interests: ['AI/ML Research Trends', 'Cricket', 'Reading Tech Blogs & Dev Docs', 'Chess', 'Football'],
+  interests: [
+  'AI/ML Research & Emerging Technologies',
+  'Reading Tech Blogs & Dev Docs',
+  'Cricket',
+  'Football',
+  'Chess'
+],
 };

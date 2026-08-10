@@ -1,10 +1,5 @@
 export const skills = [
   {
-    category: 'Languages',
-    icon: 'Code2',
-    items: ['JavaScript', 'Python', 'C++', 'Bash'],
-  },
-  {
     category: 'Frontend',
     icon: 'Layout',
     items: ['React.js', 'Next.js', 'Tailwind CSS', 'Material UI', 'Redux Toolkit'],
@@ -15,28 +10,39 @@ export const skills = [
     items: ['Node.js', 'Express.js', 'REST APIs', 'JWT Auth', 'Middleware'],
   },
   {
+    category: 'AI & Machine Learning',
+    icon: 'Brain',
+    items: [
+      'Machine Learning',
+      'Generative AI',
+      'Scikit-learn',
+      'Google Gemini API',
+      'Prompt Engineering',
+    ],
+  },
+  {
+    category: 'Data Science',
+    icon: 'BarChart3',
+    items: ['Python', 'NumPy', 'Pandas', 'Matplotlib', 'Data Preprocessing', 'EDA'],
+  },
+  {
+    category: 'Languages',
+    icon: 'Code2',
+    items: ['Python', 'JavaScript', 'C++', 'Bash'],
+  },
+  {
+    category: 'Cloud & DevOps',
+    icon: 'Cloud',
+    items: ['AWS', 'Docker', 'GitHub Actions', 'Linux', 'Vercel'],
+  },
+  {
     category: 'Database',
     icon: 'Database',
     items: ['MongoDB', 'Mongoose ODM', 'Firebase'],
-  },
-  {
-    category: 'Cloud',
-    icon: 'Cloud',
-    items: ['AWS', 'Vercel', 'Firebase Hosting'],
-  },
-  {
-    category: 'DevOps',
-    icon: 'Container',
-    items: ['Docker', 'GitHub Actions', 'Linux', 'Bash Scripting'],
   },
   {
     category: 'Tools',
     icon: 'Wrench',
     items: ['Git', 'GitHub', 'Postman', 'VS Code', 'npm'],
   },
-  {
-    category: 'AI Integration',
-    icon: 'Cpu',
-    items: ['Google Gemini API', 'Prompt Engineering', 'AI-powered Development'],
-  },
-];
+]

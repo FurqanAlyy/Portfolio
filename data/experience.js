@@ -4,7 +4,7 @@ export const experience = [
   {
     title: 'Web Developer Intern',
     institution: 'Webocation',
-    period: 'April 2026 – Present',
+    period: 'April 2026 – June 2026',
     description:
       'Worked as a Web Developer Intern, developing responsive web applications using React and WordPress, integrating APIs, customizing themes and plugins, and collaborating with the development team to deliver scalable and user-friendly solutions.',
     highlights: [
@@ -21,11 +21,11 @@ export const currentFocus = {
   institution: 'University of Central Punjab',
   period: '2023 – Present',
   description:
-    'Currently pursuing my CS degree while building production-grade full-stack applications, contributing to developer communities, and earning cloud certifications. Focused on MERN stack, DevOps practices, and AI integration.',
+    'Currently pursuing my CS degree while building production-grade full-stack and AI-powered applications. Focused on Machine Learning, Generative AI, AI integration, and deploying scalable solutions with modern cloud and DevOps technologies.',
   highlights: [
-    'Built 3+ production full-stack applications',
+    'Built 3+ full-stack and AI-powered applications',
     'Google Cloud & Vertex AI certifications',
     'Active in GDGoC, MLSA, and AWS Cloud Club',
-    'Focused on DevOps, CI/CD, and AI integration',
+    'Focused on Machine Learning, Generative AI, and AI deployment',
   ],
 };
