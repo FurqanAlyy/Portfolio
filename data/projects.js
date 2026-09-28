@@ -14,6 +14,45 @@ export const projects = [
 
   {
     id: 2,
+    name: 'Orbit CRM',
+    fullName: 'Orbit CRM — Modern Sales & Customer Relationship Management Platform',
+    description:
+      'Modern CRM platform for managing end-to-end sales workflows, including contacts, companies, leads, deals, tasks, and activities. Features an interactive sales pipeline, team workspaces, dashboards, reports, lead follow-up automation, and AI-powered assistance.',
+    techStack: ['Next.js', 'TypeScript', 'MongoDB', 'Tailwind CSS', 'Google Gemini API'],
+    github: 'https://github.com/FurqanAlyy/Orbit-CRM',
+    live: null,
+    featured: true,
+    gradient: 'from-blue-500 to-indigo-600',
+  },
+
+  {
+    id: 3,
+    name: 'Shopivo',
+    fullName: 'Shopivo — Multi-Vendor E-Commerce Platform',
+    description:
+      'Scalable multi-vendor e-commerce platform with dedicated buyer, seller, and admin workflows. Features vendor dashboards, seller approval, product and inventory management, multi-vendor checkout, order processing, analytics, and secure Stripe payments.',
+    techStack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Stripe', 'Cloudinary', 'JWT', 'Tailwind CSS'],
+    github: 'https://github.com/FurqanAlyy/Shopivo-A-Multi-Vendor-Ecommerce-Platform',
+    live: "https://shopivo-weld.vercel.app/",
+    featured: true,
+    gradient: 'from-emerald-500 to-green-600',
+  },
+
+  {
+    id: 4,
+    name: 'CineSphere',
+    fullName: 'CineSphere — Full-Stack Movie Ticket Booking Platform',
+    description:
+      'Full-stack movie ticket booking platform for managing movies, cinemas, screens, seats, showtimes, and bookings. Features interactive seat selection, multiple seat and screen types, atomic seat locking, booking management, reviews, payments, and secure user authentication.',
+    techStack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Tailwind CSS'],
+    github: 'https://github.com/FurqanAlyy/CineSphere-movie-booking-App',
+    live: "https://cine-sphere-psi.vercel.app/",
+    featured: true,
+    gradient: 'from-rose-500 to-pink-600',
+  },
+
+  {
+    id: 5,
     name: 'Network Anomaly Detection',
     fullName: 'Network Anomaly Detection — ML-Based Intrusion Detection',
     description:
@@ -26,7 +65,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 6,
     name: 'Enron Anomaly Detection',
     fullName: 'Enron Anomaly Detection — Unsupervised Machine Learning',
     description:
@@ -39,7 +78,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 7,
     name: 'QASAF',
     fullName: 'QASAF — AI-Enhanced E-Commerce Platform with Chatbot',
     description:
@@ -52,7 +91,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 8,
     name: 'CodeSync',
     fullName: 'CodeSync — Real-Time Collaborative Code Editor',
     description:
@@ -65,7 +104,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 9,
     name: 'Console Streaming Platform',
     fullName: 'C++ Console-Based Movie Streaming Platform',
     description:
@@ -76,4 +115,4 @@ export const projects = [
     featured: true,
     gradient: 'from-cyan-500 to-blue-600',
   },
-]
+];
