@@ -42,15 +42,15 @@ export const experience = [
   },
 ];
 export const currentFocus = {
-  // title: 'Computer Science Student & Full-Stack Developer',
-  // institution: 'University of Central Punjab',
-  // period: '2023 – Present',
-  // description:
-  //   'Currently pursuing my CS degree while building production-grade full-stack and AI-powered applications. Focused on Machine Learning, Generative AI, AI integration, and deploying scalable solutions with modern cloud and DevOps technologies.',
-  // highlights: [
-  //   'Built 3+ full-stack and AI-powered applications',
-  //   'Google Cloud & Vertex AI certifications',
-  //   'Active in GDGoC, MLSA, and AWS Cloud Club',
-  //   'Focused on Machine Learning, Generative AI, and AI deployment',
-  // ],
+  title: 'Computer Science Student & Full-Stack Developer',
+  institution: 'University of Central Punjab',
+  period: '2023 – Present',
+  description:
+    'Currently pursuing my CS degree while building production-grade full-stack and AI-powered applications. Focused on Machine Learning, Generative AI, AI integration, and deploying scalable solutions with modern cloud and DevOps technologies.',
+  highlights: [
+    'Built 3+ full-stack and AI-powered applications',
+    'Google Cloud & Vertex AI certifications',
+    'Active in GDGoC, MLSA, and AWS Cloud Club',
+    'Focused on Machine Learning, Generative AI, and AI deployment',
+  ],
 };
